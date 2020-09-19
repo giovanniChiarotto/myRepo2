@@ -1,0 +1,25 @@
+<div class="header-main">
+    <div class="header-top">
+        <div class="logo">
+            <a href="https://www.kawasaki.it/it/products">
+                <img src="//resources.kawasaki.eu/prd/assets/images/kawasaki-logo.png">
+            </a>
+        </div>
+        <div class="navigator">
+            <app-kawa-link linkText="{{'kawasaki_world'|translate}}" link="https://www.kawasaki.it/it/about_kawasaki"
+                color="white" colorOnHover="green">
+            </app-kawa-link>
+            
+            <app-kawa-link linkText="{{'dealers'|translate}}" link="https://www.kawasaki.it/it/dealers" color = "white"
+                colorOnHover="green">
+            </app-kawa-link>
+            
+            <app-kawa-link linkText="{{'news'|translate}}" link="https://www.kawasaki.it/it/news" color="white"
+                colorOnHover="green">
+            </app-kawa-link>
+            <p (click)="setLanguage('italian')" class="navigator-item cursor-pointer">IT</p>
+            <p (click)="setLanguage('english')" class="navigator-item cursor-pointer">EN</p>
+
+        </div>
+    </div>
+</div>

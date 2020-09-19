@@ -1,0 +1,36 @@
+.header-main{
+    background-color:rgb(0,0,0);
+}
+
+.header-top{
+    height:84px;
+    padding-top: 0px;
+    padding-bottom:24px;
+    padding-right:20px;
+    padding-left:20px;  
+}
+.logo{
+    float:left;
+    padding-top:20px;
+}
+
+.navigator{
+    float: right;
+    padding-top: 23px;
+}
+
+.navigator-item{
+    float:left;
+    padding-right:15px;
+    border-right: 1px solid #6E6E6E;
+    margin-right:15px;
+
+    color: #c1c1c1;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight:400;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
